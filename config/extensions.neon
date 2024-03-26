@@ -1,0 +1,2 @@
+extensions:
+    leanmapper: LeanMapper\Bridges\Nette\DI\LeanMapperExtension

@@ -8,11 +8,12 @@ application:
 	mapping: App\*Module\Presenters\*Presenter
 
 
-database:
-	dsn: 'sqlite::memory:'
-	user:
-	password:
-
+leanmapper:
+    db:
+        host: localhost
+        username: root
+        password: ???
+        database: foo
 
 latte:
 	strictTypes: yes

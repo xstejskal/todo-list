@@ -1,16 +1,7 @@
-Nette Web Project
+TODO list
 =================
 
-Welcome to the Nette Web Project! This is a basic skeleton application built using
-[Nette](https://nette.org), ideal for kick-starting your new web projects.
-
-Nette is a renowned PHP web development framework, celebrated for its user-friendliness,
-robust security, and outstanding performance. It's among the safest choices
-for PHP frameworks out there.
-
-If Nette helps you, consider supporting it by [making a donation](https://nette.org/donate).
-Thank you for your generosity!
-
+Velmi jednoduchý TODO list vytvořený na [Nette Web Project](https://github.com/nette/web-project).
 
 Requirements
 ------------
@@ -45,8 +36,19 @@ For Apache or Nginx users, configure a virtual host pointing to your project's `
 Refer to [security warning](https://nette.org/security-warning) for more details.
 
 
-Minimal Skeleton
+Upřesnění
 ----------------
 
-For demonstrating issues or similar tasks, rather than starting a new project, use
-this [minimal skeleton](https://github.com/nette/web-project/tree/minimal).
+Do projektu přidány knihovny
+- [dibi/dibi](https://dibiphp.com/) pro práci s databází
+- [tharos/leanmapper](https://leanmapper.com/) pro základní ORM
+
+SQL dump pro vytvoření databáze (použitá MariaDB) je v souboru `db/database.sql`
+
+Dále by bylo prima tam v základu doplnit
+- Uhezkat vzhled + udělat AJAXy
+- Doplnit k úkolu datum a čas
+- Možnost kalendářového zobrazení / upozornění na aktuální / propadlé úkoly ...
+- Autenetifikaci uživatele
+- Přidání uživatelů s možností přiřazení úkolů
+- ...
